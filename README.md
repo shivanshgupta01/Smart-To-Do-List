@@ -4,6 +4,13 @@
 
 A beautiful, high-performance task management web app designed to help you crush your daily goals. Featuring priority-based organization, smart filtering, and persistent local storage within a sleek, modern UI.
 
+![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Built with Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Styled with Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel)
+![Data Persistence](https://img.shields.io/badge/Data-Local%20Storage-F7DF1E?style=flat-square)
+![No Login Required](https://img.shields.io/badge/No%20Login-Required-green?style=flat-square)
+
 ## 🌐 Live Demo
 🔗 **[smart-todo-shivansh.vercel.app](https://your-link-here.vercel.app)**
 
