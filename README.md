@@ -12,7 +12,7 @@ A beautiful, high-performance task management web app designed to help you crush
 ![No Login Required](https://img.shields.io/badge/No%20Login-Required-green?style=flat-square)
 
 ## 🌐 Live Demo
-🔗 **[smart-todo-shivansh.vercel.app](https://your-link-here.vercel.app)**
+🔗 **[smart-todo-shivansh.vercel.app](https://smart-to-do-list-pi.vercel.app)**
 
 ---
 
