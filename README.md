@@ -1,16 +1,167 @@
-# React + Vite
+# 📝 Smart To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Organize your life. Prioritize your day. Get things done.**
 
-Currently, two official plugins are available:
+A beautiful, high-performance task management web app designed to help you crush your daily goals. Featuring priority-based organization, smart filtering, and persistent local storage within a sleek, modern UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+🔗 **[smart-todo-shivansh.vercel.app](https://your-link-here.vercel.app)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* **🧠 Smart Sorting** — Auto-sorts tasks by nearest deadline or highest priority.
+* **🔍 Deep Filtering** — Instantly filter your list by status (Pending/Completed) or priority level.
+* **🎯 Priority Tags** — Assign High 🔴, Medium 🟡, or Low 🟢 priorities to your tasks.
+* **📅 Due Dates** — Set deadlines so nothing slips through the cracks.
+* **💾 Data Persistence** — No database needed! Tasks are instantly saved to `localStorage` and survive page refreshes.
+* **🌗 Theme Toggle** — Full Light/Dark mode support that respects your system preferences.
+* **🛑 Fail-Safe Deletion** — Beautiful glass-morphic confirmation modal to prevent accidental task deletions.
+* **🎨 Aesthetic UI/UX** — Clean, distraction-free card layout with smooth hover animations and custom SVG checkboxes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 How It Works
+
+User opens app  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+Types a task, selects priority & due date  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+Clicks "Add" → Task appears instantly  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+App auto-saves data to browser `localStorage`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+User uses Control Bar to filter or sort tasks  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+Checks off completed tasks or deletes them safely  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+**Stays productive and organized! 🚀**
+
+---
+
+## 🎨 Design & UI
+
+* **Style:** Modern minimal — soft shadows, rounded corners (`rounded-2xl`), and clean typography.
+* **Themes:** Sleek Slate Dark Mode (`bg-slate-900`) and Crisp Light Mode (`bg-slate-50`).
+* **Animations:** Smooth transitions on hover, state changes, and modal pop-ups.
+* **Mobile First:** Fully responsive layout that stacks perfectly on phones and expands on desktop.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+| :--- | :--- |
+| **React 18** | Frontend UI Framework |
+| **Vite** | Lightning-fast build tool & HMR |
+| **Tailwind CSS v4** | Utility-first styling & dark mode |
+| **React Hooks** | State management (`useState`, `useEffect`) |
+| **Browser API** | `localStorage` for data persistence |
+| **UUID** | `crypto.randomUUID()` for unique keys |
+
+---
+
+## 📁 Project Structure
+
+```text
+smart-todo/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx         ← Theme toggle & branding
+│   │   ├── TaskForm.jsx       ← Data entry & validation
+│   │   ├── FilterBar.jsx      ← Smart sorting/filtering controls
+│   │   ├── TaskItem.jsx       ← Individual task cards
+│   │   └── DeleteModal.jsx    ← Confirmation UI
+│   ├── App.jsx                ← Master state manager
+│   ├── main.jsx               ← React entry point
+│   └── index.css              ← Tailwind v4 directives
+├── index.html
+├── vite.config.js
+└── package.json
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+  * Node.js v18+
+  * npm v9+
+
+### 1\. Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone [https://github.com/shivanshgupta01/smart-todo.git](https://github.com/shivanshgupta01/smart-todo.git)
+cd smart-todo
+npm install
+```
+
+### 2\. Run Locally
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser. ✅
+
+-----
+
+## 🚀 Deployment on Vercel
+
+**Step 1 — Push to GitHub**
+
+```bash
+git add .
+git commit -m "initial commit: Smart To-Do List complete 🚀"
+git push origin main
+```
+
+**Step 2 — Deploy on Vercel**
+
+1.  Go to [vercel.com](https://vercel.com) and import your repository.
+2.  Click **Deploy** (No environment variables needed\!) ✅
+
+-----
+
+## 🗺️ Roadmap
+
+  - [ ] Push notifications for due date reminders
+  - [ ] Cloud sync via Firebase for cross-device access
+  - [ ] Drag & drop task reordering
+  - [ ] AI task prioritization suggestions
+  - [ ] Tagging system for custom categories
+
+-----
+
+## 🏗️ Part of 30 Days Mini Projects
+
+This app is **Day 07** of my **30 Days Mini Projects** challenge — building one web app every day.
+
+| Day | Project | Status |
+| :---: | :--- | :--- |
+| 01 | Daily Habit Tracker | ✅ Live |
+| 02 | Skill Progress Tracker | ✅ Live |
+| 03 | Focus Timer | ✅ Live |
+| 04 | Accountability Board | ✅ Live |
+| ... | ... | ... |
+| **07** | **Smart To-Do List** | **✅ Live** |
+
+-----
+
+## 👨‍💻 Author
+
+**Shivansh Gupta**
+
+  * Instagram: [@flowkraftai](https://www.google.com/search?q=https://instagram.com/flowkraftai)
+  * GitHub: [@shivanshgupta01](https://www.google.com/search?q=https://github.com/shivanshgupta01)
+
+## 📄 License
+
+MIT License — free to use, modify, and distribute.
+
+-----
+
+*Built with ❤️ by Shivansh Gupta* ⭐ **Star this repo if you found it useful\!**
